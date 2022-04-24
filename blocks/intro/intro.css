@@ -1,0 +1,14 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 1140px) {
+  .intro {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

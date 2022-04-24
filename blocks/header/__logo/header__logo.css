@@ -1,0 +1,12 @@
+.header__logo {
+  width: 176px;
+  object-fit: contain;
+  object-position: center;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .header__logo {
+    width: 142px;
+  }
+}

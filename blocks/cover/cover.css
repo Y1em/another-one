@@ -9,7 +9,7 @@
 @media screen and (max-width: 1140px) {
   .cover {
     width: calc(100% + 96px);
-    position: relative;
+    position: relative;  /*без относительного позиционирования картинка будет с отступом*/
     left: -48px;
   }
 }

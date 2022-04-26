@@ -13,8 +13,8 @@
     <header class="header">
       <img class="header__logo" src="./images/logo.svg" alt="Логотоп." />
 
-      <a class="link link_place_header" href="#" target="_blank">Ru</a>
-      <a class="link link_place_header" href="#" target="_blank">En</a>
+      <a class="link link_active link_place_header" href="#">Ru</a>
+      <a class="link link_active link_place_header" href="#">En</a>
     </header>
 
     <main class="">
@@ -48,25 +48,25 @@
         </p>
 
         <p class="intro__list">
-          <span class="intro__list_font_bold">Часовых поясов</span> 11
+          <span class="intro__span-bold">Часовых поясов</span> 11
         </p>
         <p class="intro__list">
-          <span class="intro__list_font_bold"
+          <span class="intro__span-bold"
             >Объектов природного наследия ЮНЕСКО</span
           >
           12
         </p>
         <p class="intro__list">
-          <span class="intro__list_font_bold"
+          <span class="intro__span-bold"
             >Объектов культурного наследия ЮНЕСКО</span
           >
           16
         </p>
         <p class="intro__list">
-          <span class="intro__list_font_bold">Природных заповедников</span> 105
+          <span class="intro__span-bold">Природных заповедников</span> 105
         </p>
         <p class="intro__list">
-          <span class="intro__list_font_bold">Аэропортов</span> 241
+          <span class="intro__span-bold">Аэропортов</span> 241
         </p>
       </section>
 
@@ -134,7 +134,7 @@
       </section>
 
       <section class="section places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
 
           <p class="place__website">
@@ -167,9 +167,9 @@
               прохладного моря.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
 
           <p class="place__website">
@@ -204,9 +204,9 @@
               в Мурманск.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
 
           <p class="place__website">
@@ -236,9 +236,9 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
 
           <p class="place__website">
@@ -269,9 +269,9 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
 
           <p class="place__website">
@@ -300,45 +300,44 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
-      <div class="section cover">
+      <section class="section cover">
         <a
-          class="link"
+          class="link link_place_cover"
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
         >
-          <div class="cover__overlay">
             <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
 
             <p class="cover__subtitle">
               По мотивам учебной темы о&nbsp;Транссибе&nbsp;— путешествие от столицы до
               Байкала на электричках.
             </p>
-          </div>
         </a>
-      </div>
+      </section>
     </main>
 
     <footer class="footer">
-      <a class="link link_place_footer" href="https://yandex.ru/maps">Карты</a>
+      <nav class="links">
+        <a class="link link_place_footer" href="https://yandex.ru/maps">Карты</a>
 
-      <a class="link link_place_footer" href="https://yandex.ru/pogoda"
-        >Погода</a
-      >
+        <a class="link link_place_footer" href="https://yandex.ru/pogoda"
+          >Погода</a
+        >
 
-      <a class="link link_place_footer" href="https://rasp.yandex.ru"
-        >Расписание</a
-      >
+        <a class="link link_place_footer" href="https://rasp.yandex.ru"
+          >Расписание</a
+        >
 
-      <a class="link link_place_footer" href="https://calendar.yandex.ru"
-        >Календарь</a
-      >
+        <a class="link link_place_footer" href="https://calendar.yandex.ru"
+          >Календарь</a
+        >
 
-      <a class="link link_place_footer" href="https://travel.yandex.ru"
-        >Путешествия</a
-      >
-
+        <a class="link link_place_footer" href="https://travel.yandex.ru"
+          >Путешествия</a
+        >
+      </nav>
       <p class="footer__copyright">© 2022. Евгений Попов</p>
     </footer>
   </body>

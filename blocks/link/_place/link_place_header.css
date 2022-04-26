@@ -2,11 +2,6 @@
   margin-left: 18px;
 }
 
-.link_place_header:hover {
-  text-decoration: underline;
-
-}
-
 @media screen and (max-width: 600px) {
   .link_place_header {
     font-size: 18px;

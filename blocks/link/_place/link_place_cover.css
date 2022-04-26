@@ -1,0 +1,17 @@
+.link_place_cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100% + .5px);
+  background: rgb(42, 44, 47, .3); /*#2A2C2F;*/
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.link_place_cover:hover {
+  background: rgb(42, 44, 47, .8); /*#2A2C2F;*/
+  opacity: 1;
+}
+

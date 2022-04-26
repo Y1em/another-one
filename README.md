@@ -2,6 +2,8 @@
 
 Это вторая работа в рамках программы обучения Яндекс Практикум курса "Веб-разработчик плюс"
 В проекте реализуются работа с Figma и создание адаптивной верстки. [Ссылка на макет](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+
+Ссылка на проект на GH Pages [![Avatar](./images/russia.svg)](https://y1em.github.io/another-one/)
  
 * HTML
 * CSS
